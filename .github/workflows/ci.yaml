@@ -17,5 +17,5 @@ jobs:
       - name: Install deps
         run: make deps
       # testy!!!!!
-      - name: Install deps
+      - name: Tests
         run: make test

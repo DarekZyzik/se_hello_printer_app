@@ -17,8 +17,8 @@ jobs:
       - name: Install deps
         run: make deps
       # lint
-        name: Linters
-        run: make lint  
+      - name: Linters
+        run: make lint
       # testy!!!!!
       - name: Tests
         run: make test

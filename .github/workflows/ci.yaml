@@ -22,3 +22,6 @@ jobs:
       # testy!!!!!
       - name: Tests
         run: make test
+      # Docker
+      - name: Docker
+        run: docker_build
